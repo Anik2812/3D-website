@@ -1,0 +1,22 @@
+/* Remove default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the body to occupy the full viewport */
+body {
+    overflow: hidden; /* Prevent scrollbars */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000; /* Optional: Set a background color */
+}
+
+/* Ensure the canvas fills the screen */
+canvas {
+    display: block; /* Removes small space below the canvas */
+}
